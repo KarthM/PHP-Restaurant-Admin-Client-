@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Georgia, Times, serif, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.menu {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.383);
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: 600;
+}
+
+.menu ul li a:hover {
+    color: rgb(183, 121, 233);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-content {
+    padding: 1% 0;
+    background-color: #ebebe0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.full {
+    width: 90%;
+}
+
+tr th {
+    border-bottom: 1px solid grey;
+    padding: 1%;
+}
+
+tr td {
+    padding: 1%;
+    text-align: center;
+}
+
+.tbl-40 {
+    width: 40%;
+}
+
+.tbl-full {
+    width: 90%;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.btn-primary {
+    background-color: rgba(101, 101, 206, 0.657);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(189, 189, 240, 0.657);
+}
+
+.btn-sec {
+    background-color: rgb(138, 206, 35);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btn-sec:hover {
+    background-color: rgb(191, 230, 113);
+}
+
+.btn-first {
+    background-color: rgb(231, 142, 60);
+    padding: 5px;
+    text-decoration: none;
+    float: left;
+}
+
+.btn-first:hover {
+    background-color: rgb(255, 189, 127);
+    border: 1px double black;
+}
+
+.login {
+    border: 1px solid black;
+    width: 40%;
+    padding: 2%;
+    margin: 5% auto;
+}
+
+.footer {
+    background-color: rebeccapurple;
+    color: white;
+}
